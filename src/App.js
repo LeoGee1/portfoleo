@@ -24,11 +24,11 @@ function App() {
             <Routes>
               <Route path="/" element={<Home clockHasFadedIn={clockHasFadedIn} setClockHasFadedIn={setClockHasFadedIn} showPreload={showPreload} setShowPreload={setShowPreload} />} />
 
-              <Route path="porto/aboutme" element={<AboutMe />} />
+              <Route path="/aboutme" element={<AboutMe />} />
 
-              <Route path="porto/projects" element={<Projects />} />
+              <Route path="/projects" element={<Projects />} />
 
-              <Route path="porto/stack" element={<Stack />} />
+              <Route path="/stack" element={<Stack />} />
 
             </Routes>
           </div>
