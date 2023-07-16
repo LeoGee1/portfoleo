@@ -1,0 +1,15 @@
+.fade {
+    animation: fade-in 1s ease-out 3s forwards;
+   }
+
+   
+  @keyframes fade-in {
+    0% {
+      display: none;
+      transform: translateX(500px); 
+    }
+    100% {
+      display: flex;
+      transform: translateX(0px);
+    }
+   }
