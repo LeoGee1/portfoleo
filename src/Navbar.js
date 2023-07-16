@@ -54,9 +54,9 @@ const Navbar = () => {
 
             <div className="nav-child main-menu">
                 <Link to="/" className={activeLink === 1 ? "home active" : "home"} onClick={() => handleClick(1)}>HOME</Link>
-                <Link to="/aboutme" className={activeLink === 2 ? "about active" : "about"} onClick={() => handleClick(2)}>ABOUT</Link>
-                <Link to="/stack" className={activeLink === 3 ? "stack active" : "stack"} onClick={() => handleClick(3)}>STACK</Link>
-                <Link to="/projects" className={activeLink === 4 ? "projects active" : "projects"} onClick={() => handleClick(4)}>PROJECTS</Link>
+                <Link to="porto/aboutme" className={activeLink === 2 ? "about active" : "about"} onClick={() => handleClick(2)}>ABOUT</Link>
+                <Link to="porto/stack" className={activeLink === 3 ? "stack active" : "stack"} onClick={() => handleClick(3)}>STACK</Link>
+                <Link to="porto/projects" className={activeLink === 4 ? "projects active" : "projects"} onClick={() => handleClick(4)}>PROJECTS</Link>
             </div>
 
             <div className="nav-child contacts">
@@ -79,9 +79,9 @@ const Navbar = () => {
 
             <div className="count-tab">
                 <Link to="/" className={activeLink === 1 ? "count-active" : " "} onClick={() => handleClick(1)}>01</Link>
-                <Link to="/aboutme" className={activeLink === 2 ? "count-active" : " "} onClick={() => handleClick(2)}>02</Link>
-                <Link to="/stack" className={activeLink === 3 ? "count-active" : " "} onClick={() => handleClick(3)}>03</Link>
-                <Link to="/projects" className={activeLink === 4 ? "count-active" : " "} onClick={() => handleClick(4)}>04</Link>
+                <Link to="porto/aboutme" className={activeLink === 2 ? "count-active" : " "} onClick={() => handleClick(2)}>02</Link>
+                <Link to="porto/stack" className={activeLink === 3 ? "count-active" : " "} onClick={() => handleClick(3)}>03</Link>
+                <Link to="porto/projects" className={activeLink === 4 ? "count-active" : " "} onClick={() => handleClick(4)}>04</Link>
             </div>
         </section>
     );
