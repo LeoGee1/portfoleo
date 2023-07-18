@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portolol/static/css/main.496f2e9b.css",
+    "main.js": "/portolol/static/js/main.ea04f531.js",
+    "static/media/birdnav1.jpg": "/portolol/static/media/birdnav1.4967bd045aa224498e65.jpg",
+    "static/media/ropelights.jpg": "/portolol/static/media/ropelights.a475aa2c46f9faf65663.jpg",
+    "static/media/YsabeauInfant.ttf": "/portolol/static/media/YsabeauInfant.8848a06be06ed59543e9.ttf",
+    "static/media/Raleway.ttf": "/portolol/static/media/Raleway.575ec9e676c7a85494bb.ttf",
+    "static/media/Ysabeau.ttf": "/portolol/static/media/Ysabeau.b556c9de80a323c7b6f9.ttf",
+    "static/media/Kurale.ttf": "/portolol/static/media/Kurale.9afa76c471c1bd101ba1.ttf",
+    "static/media/feather1.jpg": "/portolol/static/media/feather1.4fd23e4b232a78fcbbec.jpg",
+    "static/media/uo.svg": "/portolol/static/media/uo.808f55d6a7296a04781d2b55760bbfbb.svg",
+    "static/media/inventory.jpg": "/portolol/static/media/inventory.cb4540ad606d0b94c7c5.jpg",
+    "static/media/port1.jpg": "/portolol/static/media/port1.30e423817bdf53429ceb.jpg",
+    "static/media/Kavoon.ttf": "/portolol/static/media/Kavoon.05df4b450b841b31e5d4.ttf",
+    "static/media/currency.jpg": "/portolol/static/media/currency.ce592a03a8a42fbde503.jpg",
+    "static/media/Cookie.ttf": "/portolol/static/media/Cookie.82c617ca81b219b70087.ttf",
+    "index.html": "/portolol/index.html",
+    "main.496f2e9b.css.map": "/portolol/static/css/main.496f2e9b.css.map",
+    "main.ea04f531.js.map": "/portolol/static/js/main.ea04f531.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.496f2e9b.css",
+    "static/js/main.ea04f531.js"
+  ]
+}
