@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portolol/static/css/main.496f2e9b.css",
-    "main.js": "/portolol/static/js/main.ea04f531.js",
+    "main.js": "/portolol/static/js/main.e3f61c80.js",
     "static/media/birdnav1.jpg": "/portolol/static/media/birdnav1.4967bd045aa224498e65.jpg",
     "static/media/ropelights.jpg": "/portolol/static/media/ropelights.a475aa2c46f9faf65663.jpg",
     "static/media/YsabeauInfant.ttf": "/portolol/static/media/YsabeauInfant.8848a06be06ed59543e9.ttf",
@@ -17,10 +17,10 @@
     "static/media/Cookie.ttf": "/portolol/static/media/Cookie.82c617ca81b219b70087.ttf",
     "index.html": "/portolol/index.html",
     "main.496f2e9b.css.map": "/portolol/static/css/main.496f2e9b.css.map",
-    "main.ea04f531.js.map": "/portolol/static/js/main.ea04f531.js.map"
+    "main.e3f61c80.js.map": "/portolol/static/js/main.e3f61c80.js.map"
   },
   "entrypoints": [
     "static/css/main.496f2e9b.css",
-    "static/js/main.ea04f531.js"
+    "static/js/main.e3f61c80.js"
   ]
 }
