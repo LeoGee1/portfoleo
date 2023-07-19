@@ -46,7 +46,7 @@ body{
   position: fixed;
   bottom: 0px;
   z-index: 100;
-  /* display: none; */
+  pointer-events: none;
 }
 .pre-load img {
   width: 120px;
@@ -295,7 +295,7 @@ body{
   100% {
     opacity: 0;
     display: none;
-    bottom: 800px;
+    bottom: 1000px;
   }
 }
 @keyframes tick {
