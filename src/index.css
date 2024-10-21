@@ -1,27 +1,36 @@
 @font-face {
   font-family: 'Raleway';
-  src: url('/src/fonts/Raleway.ttf');
+  src: url('/src/assets/fonts/Raleway.ttf');
 }
 @font-face {
   font-family: 'Kavoon';
-  src: url('/src/fonts/Kavoon.ttf');
+  src: url('/src/assets/fonts/Kavoon.ttf');
 }
 @font-face {
   font-family: 'Cookie';
-  src: url('/src/fonts/Cookie.ttf');
+  src: url('/src/assets/fonts/Cookie.ttf');
 }
 @font-face {
   font-family: 'Kurale';
-  src: url('/src/fonts/Kurale.ttf');
+  src: url('/src/assets/fonts/Kurale.ttf');
 }
 @font-face {
   font-family: 'Ysabeau';
-  src: url('/src/fonts/Ysabeau.ttf');
+  src: url('/src/assets/fonts/Ysabeau.ttf');
 }
 @font-face {
   font-family: 'YsabeauInfant';
-  src: url('/src/fonts/YsabeauInfant.ttf');
+  src: url('/src/assets/fonts/YsabeauInfant.ttf');
+
+}@font-face {
+  font-family: 'HelveticaLight';
+  src: url('/src/assets/fonts/helvetica-light-587ebe5a59211.ttf');
+
+}@font-face {
+  font-family: 'HelveticaBold';
+  src: url('/src/assets/fonts/Helvetica-Bold.ttf');
 }
+
 body{
   margin: 0;
   font-family: 'Raleway', 'Segoe UI', 'Roboto', 'Oxygen',
