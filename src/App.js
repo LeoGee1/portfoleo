@@ -1,12 +1,12 @@
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import Home from "./Home";
-import AboutMe from "./AboutMe";
-import Stack from "./Stack";
-import Projects from "./Projects"
+import Navbar from "./Components/Navbar.js";
+import Footer from "./Components/Footer";
+import Home from "./Components/Home";
+import AboutMe from "./Components/AboutMe";
+import Stack from "./Components/Stack";
+import Projects from "./Components/Projects"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
-import Preload from "./Preload";
+import Preload from "./Components/Preload.js";
 
 
 function App() {

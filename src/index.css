@@ -23,7 +23,7 @@
   src: url('/src/assets/fonts/YsabeauInfant.ttf');
 
 }@font-face {
-  font-family: 'HelveticaLight';
+  font-family: 'Helvetica';
   src: url('/src/assets/fonts/helvetica-light-587ebe5a59211.ttf');
 
 }@font-face {
@@ -40,7 +40,7 @@ body{
   -moz-osx-font-smoothing: grayscale;
   text-decoration: none;
   background-color: black;
-  color: #3078c0;
+  color: #419cf7;
   box-sizing: border-box;
   /* background-color: white; */
 }
@@ -153,10 +153,11 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-family: 'Helvetica';
   font-size: 14px;
-  font-weight: 800;
+  font-weight: normal;
   flex-basis: 400px;
-  max-width: 600px;
+  letter-spacing: 2px;
 }
 .main-menu * {
   padding: 5px;
@@ -164,7 +165,7 @@ body{
   cursor: pointer;
   position: relative;
   text-decoration: none;
-  color: #3078c0;
+  color: #419cf7;
   z-index: 15;
 }
 .main-menu > *::before {
@@ -267,7 +268,7 @@ body{
 .count-tab * {
   text-decoration: none;
   padding: 20px 0;
-  color: rgba(49, 49, 235, 0.774);
+  color: #419cf7;
   transition: 250ms;
 
 }
@@ -471,7 +472,8 @@ body{
   height: 30px;
   text-align: center;
   color: #fff;
-  text-shadow: 4px 4px 6px rgba(255, 255, 255, 0.3);
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.3);
+  letter-spacing: 1px;
 }
 .eggs {
   position: absolute;
