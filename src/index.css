@@ -2,33 +2,45 @@
   font-family: 'Raleway';
   src: url('/src/assets/fonts/Raleway.ttf');
 }
+
 @font-face {
   font-family: 'Kavoon';
   src: url('/src/assets/fonts/Kavoon.ttf');
 }
+
 @font-face {
   font-family: 'Cookie';
   src: url('/src/assets/fonts/Cookie.ttf');
 }
+
 @font-face {
   font-family: 'Kurale';
   src: url('/src/assets/fonts/Kurale.ttf');
 }
+
 @font-face {
   font-family: 'Ysabeau';
   src: url('/src/assets/fonts/Ysabeau.ttf');
 }
-@font-face {
+@fo
+nt-face {
   font-family: 'YsabeauInfant';
   src: url('/src/assets/fonts/YsabeauInfant.ttf');
+}
 
-}@font-face {
+@font-face {
   font-family: 'Helvetica';
   src: url('/src/assets/fonts/helvetica-light-587ebe5a59211.ttf');
+}
 
-}@font-face {
+@font-face {
   font-family: 'HelveticaBold';
   src: url('/src/assets/fonts/Helvetica-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('/src/assets/fonts/Manrope-VariableFont_wght.ttf');
 }
 
 body{
@@ -153,11 +165,11 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: 'Helvetica';
+  font-family: 'Manrope';
   font-size: 14px;
-  font-weight: normal;
+  font-weight: bold;
   flex-basis: 400px;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 .main-menu * {
   padding: 5px;
@@ -165,7 +177,7 @@ body{
   cursor: pointer;
   position: relative;
   text-decoration: none;
-  color: #419cf7;
+  color: white;
   z-index: 15;
 }
 .main-menu > *::before {
