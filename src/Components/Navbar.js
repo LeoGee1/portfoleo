@@ -1,5 +1,6 @@
 import { useState, useRef } from 'react';
-import uo from './uo.svg';
+// import uo from './uo.svg';
+import v2 from './V2.svg'
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -49,7 +50,7 @@ const Navbar = () => {
     return (
         <section className="nav-bar">
             <div className="nav-child portfolio-emblem">
-                <img src={uo} className="uo-logo" alt="logo" />
+                <img src={v2} className="uo-logo" alt="logo" />
             </div>
 
             <div className="nav-child main-menu">

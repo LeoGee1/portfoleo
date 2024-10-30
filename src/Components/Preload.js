@@ -1,4 +1,5 @@
 import uo from './uo.svg';
+import v2 from './V2.svg'
 
 
 const Preload = ({showPreload}) => {
@@ -6,7 +7,7 @@ const Preload = ({showPreload}) => {
     return ( 
         <div className={preloaderClassName} id='preLoad'>
             <div className="nav-child portfolio-emblem-pre">
-                <img src={uo} className="preload-logo" alt="logo" />
+                <img src={v2} className="preload-logo" alt="logo" />
             </div>
             <h1>
                 Hello, <br/> I'm Onyekwere Uchenna <span className='dot'>.</span>
