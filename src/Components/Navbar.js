@@ -18,6 +18,8 @@ const Navbar = () => {
         setActiveLink(index);
     }
 
+   
+
     const contactClick = () => {
         setFlip(true);
 
