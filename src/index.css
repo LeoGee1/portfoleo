@@ -28,7 +28,6 @@
   src: url('/src/assets/fonts/YsabeauInfant.ttf');
 }
 
-@font-face {
 @font-face{
   font-family: 'Helvetica';
   src: url('/src/assets/fonts/helvetica-light-587ebe5a59211.ttf');
@@ -43,7 +42,6 @@
   font-family: 'Seasons';
   src: url('/src/assets/fonts/Season-BF651e732546f7d.woff');
 }
-
 
 
 body{
