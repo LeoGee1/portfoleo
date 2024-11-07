@@ -1,4 +1,3 @@
-import uo from './uo.svg';
 import v2 from './V2.svg'
 
 

@@ -401,12 +401,24 @@ body{
   
 } */
 .accolades >* {
-  border-bottom: 3px solid #31ACD5;
+  /* border-bottom: 3px solid #31ACD5; */
   width: fit-content;
+  
 }
-.accolades *:hover {
+.accolades > *::before{
+ content: ' ';
+ background-color: #31ACD5;
+ display: block;
+ width: 100%;
+ height: 21px;
+ top: 29px;
+ position: absolute;
+ opacity: 0.35;
+ border-radius: 2px;
+}
+/* .accolades *:hover {
   color: rgba(49, 49, 235, 0.123);
- }
+ } */
 
  
  @keyframes nod {

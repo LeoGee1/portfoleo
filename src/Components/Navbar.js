@@ -1,21 +1,41 @@
-import { useState, useRef } from 'react';
-// import uo from './uo.svg';
+import { useState, useRef, useEffect } from 'react';
 import v2 from './V2.svg'
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 
 
-
 const Navbar = () => {
-    const [activeLink, setActiveLink] = useState(1);
+    const [activeLink, setActiveLink] = useState(() => {
+        return parseInt(localStorage.getItem('activelink'), 10) || 1;
+    });
+
+    const location = useLocation();
+
+    useEffect(() => {
+        switch(location.pathname) {
+            case '/aboutme':
+                setActiveLink(2);
+                break;
+            case '/stack':
+                setActiveLink(3);
+                break;
+            case '/projects':
+                setActiveLink(4);
+                break;
+            default:
+                setActiveLink(1)
+        }
+    },[location.pathname])
+
     const contactRef = useRef(null);
     const [flip, setFlip] = useState(null);
 
     const handleClick = (index) => {
         setActiveLink(index);
+        localStorage.setItem('activeLink', index);
     }
 
    

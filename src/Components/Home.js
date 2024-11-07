@@ -38,8 +38,8 @@ const Home = ({clockHasFadedIn, setClockHasFadedIn, setShowPreload}) => {
                  setTimeout(() => {
                 egg.classList.remove('appear');
                 
-               }, 8000);
-            }, 7800);
+               }, 9800);
+            }, 10000);
 
 
             return () => {
