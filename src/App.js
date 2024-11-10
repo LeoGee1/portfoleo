@@ -17,7 +17,7 @@ function App() {
   return (
     <Router>
         <div className="App">
-          <Preload />
+          {/* <Preload /> */}
           <Navbar />
           <Footer />
           <div>

@@ -44,6 +44,7 @@
 }
 
 
+
 body{
   margin: 0;
   font-family: 'Raleway', 'Segoe UI', 'Roboto', 'Oxygen',
@@ -155,13 +156,12 @@ body{
 
 .portfolio-emblem {
   display: flex;
-  width: 100px;
+  width: 80px;
   z-index: 10;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .uo-logo {
-  width: 100%;
-
+  width: 80%;
 }
 .main-menu {
   display: flex;
@@ -527,15 +527,17 @@ body{
 /* about design */
 .aboutme {
   display: flex;
-  margin: 20px 80px;
+  margin: 0px 150px;
+  padding: 30px;
   justify-content: space-around;
-
+  overflow: hidden;
 }
 .potraits {
   display: grid;
   position: relative;
   width: 400px;
   height: 450px;
+  margin: 0px 30px;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr);
   gap: 7px;
@@ -549,6 +551,7 @@ body{
   background-size: cover;
   mix-blend-mode: multiply;
 }
+
 .boxes {
   background-color: #fff;
   border-radius: 5px;
@@ -578,42 +581,93 @@ body{
   grid-column: 3/7;
   grid-row: 6/7;
 }
-.line {
+/* .line {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 8px;
-  /* background: #ffffff; */
+  background: #ffffff;
   border: 01px solid black;
   margin: 20px 0;
   font-size: 24px;
   margin: 0 20px;  
-}
-.dots {
+} */
+/* .dots {
   color: white;
   cursor: pointer;
   font-size: larger;
-}
+} */
+ 
 
 .description {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  font-family: 'Ysabeau';
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
   width: 400px;
   height: 450px; 
-  white-space: wrap;
   color: white;
+  overflow: hidden;
+  position: relative;
 }
-.description >* {
-  font-weight: normal;
-  font-size: 35px;
+.description> * {
+  flex: 1;
+  margin: 10px;
+  overflow: hidden;
 }
-.description :nth-child(1) {
+.description-child {
+  font-family: 'Raleway';
+  font-size: 45px;
+  color: #fff;
+  font-weight: 100;
+  animation: scroll-up 60s linear 0s infinite normal;
+}
+ @keyframes scroll-up{
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+} 
+
+
+/* .first-description {
+  transform: rotate(2deg);
+}
+.first-description:hover {
+  transform: rotate(0deg);
+  transition: 700ms;
+}
+
+.second-description {
+  transform: rotate(-4deg)
+}
+.second-description:hover {
+  transform: rotate(0deg);
+  transition: 700ms;
+}
+
+.third-description {
+  transform: rotate(-4deg);
+}
+.third-description:hover {
+  transform: rotate(0deg);
+  transition: 700ms;
+}
+
+.fourth-description {
+  transform: rotate(2deg)
+}
+.fourth-description:hover {
+  transform: rotate(0deg);
+  transition: 700ms;
+} */
+/* .description :nth-child(1) {
   border-bottom: 2px solid #077ff7 ;
   padding-bottom: 10px;
-}
+} */
 .order-first {
   order: -1;
 }
@@ -767,7 +821,7 @@ body{
     top: -1px;
    }
    .aboutme {
-    margin: 70px 100px;
+    /* margin: 70px 100px; */
   }
   
   .potraits {

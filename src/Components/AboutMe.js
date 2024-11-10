@@ -42,13 +42,16 @@ const About = () => {
                 <div className="boxes five"></div>
                 <div className="boxes six"></div>
             </div>
-            <div className="line" ref={swapref} onClick={handleClick}>
+            {/* <div className="line" ref={swapref} onClick={handleClick}>
                  <FontAwesomeIcon className='dots' icon={faEllipsisVertical} />
-            </div>
+            </div> */}
             <div className="description">
-                <h2>A Software Developer with the right attitude for Software Development</h2>
-                <h2>for the works of a man showeth his ability.</h2>
-            </div>
+                {/* <h2 className='first-description'>A Frontend Developer with the right attitude for Software Development. equipped with</h2>
+                <h2 className='second-description'>for the works of a man showeth his ability.for the works of a man showeth his ability.</h2>
+                <h2 className='third-description'>for the works of a man showeth his ability.for the works of a man showeth his ability.</h2>
+                <h2 className='fourth-description'>for the works of a man showeth his ability.for the works of a man showeth his ability.</h2> <h2 className='fifth-description'>for the works of a man showeth his ability.for the works of a man showeth his ability.</h2>
+                <h2 className='sixth-description'>for the works of a man showeth his ability.for the works of a man showeth his ability.</h2> */}
+                <h2 className='description-child'>What do you wanna know about this individual? Apart from the fact I am a self taught developer with professional guidance as you may have seen on HOME. I also posses hands-on experince and technical know how on how to turn your designs into a full working webflow with my set of skills which keep on improving daily. looking forward to take on more tasks that would put me on my feet and get better at my craft</h2></div>
         </div>
      );
 }
