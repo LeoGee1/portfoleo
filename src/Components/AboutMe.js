@@ -2,8 +2,8 @@
 import { useRef, useState } from 'react';
 
 const About = () => {
-    const swapref = useRef(null);
-    const [flip, setFlip] = useState(null);
+    // const swapref = useRef(null);
+    // const [flip, setFlip] = useState(null);
 
     // const handleClick = () => {
     //     setFlip(true);
