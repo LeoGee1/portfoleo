@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "./static/css/main.1dc1492c.css",
+    "main.js": "./static/js/main.57995e97.js",
+    "static/media/ropelights.jpg": "./static/media/ropelights.a475aa2c46f9faf65663.jpg",
+    "static/media/YsabeauInfant.ttf": "./static/media/YsabeauInfant.8848a06be06ed59543e9.ttf",
+    "static/media/Raleway.ttf": "./static/media/Raleway.575ec9e676c7a85494bb.ttf",
+    "static/media/Ysabeau.ttf": "./static/media/Ysabeau.b556c9de80a323c7b6f9.ttf",
+    "static/media/Kurale.ttf": "./static/media/Kurale.9afa76c471c1bd101ba1.ttf",
+    "static/media/Manrope-VariableFont_wght.ttf": "./static/media/Manrope-VariableFont_wght.4afb283bba326df875f6.ttf",
+    "static/media/V2.svg": "./static/media/V2.dc78410df96866d9ec8aaf7d971df1c6.svg",
+    "static/media/inventory.jpg": "./static/media/inventory.cb4540ad606d0b94c7c5.jpg",
+    "static/media/port1.jpg": "./static/media/port1.30e423817bdf53429ceb.jpg",
+    "static/media/Kavoon.ttf": "./static/media/Kavoon.05df4b450b841b31e5d4.ttf",
+    "static/media/helvetica-light-587ebe5a59211.ttf": "./static/media/helvetica-light-587ebe5a59211.6e816f786a7f97793401.ttf",
+    "static/media/currency.jpg": "./static/media/currency.ce592a03a8a42fbde503.jpg",
+    "static/media/Cookie.ttf": "./static/media/Cookie.82c617ca81b219b70087.ttf",
+    "static/media/Season-BF651e732546f7d.woff": "./static/media/Season-BF651e732546f7d.5dfaefe2180be00e7f2a.woff",
+    "index.html": "./index.html",
+    "main.1dc1492c.css.map": "./static/css/main.1dc1492c.css.map",
+    "main.57995e97.js.map": "./static/js/main.57995e97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1dc1492c.css",
+    "static/js/main.57995e97.js"
+  ]
+}
