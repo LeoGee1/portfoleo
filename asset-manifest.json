@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.1dc1492c.css",
+    "main.css": "./static/css/main.ef468a7f.css",
     "main.js": "./static/js/main.57995e97.js",
     "static/media/ropelights.jpg": "./static/media/ropelights.a475aa2c46f9faf65663.jpg",
     "static/media/YsabeauInfant.ttf": "./static/media/YsabeauInfant.8848a06be06ed59543e9.ttf",
@@ -17,11 +17,11 @@
     "static/media/Cookie.ttf": "./static/media/Cookie.82c617ca81b219b70087.ttf",
     "static/media/Season-BF651e732546f7d.woff": "./static/media/Season-BF651e732546f7d.5dfaefe2180be00e7f2a.woff",
     "index.html": "./index.html",
-    "main.1dc1492c.css.map": "./static/css/main.1dc1492c.css.map",
+    "main.ef468a7f.css.map": "./static/css/main.ef468a7f.css.map",
     "main.57995e97.js.map": "./static/js/main.57995e97.js.map"
   },
   "entrypoints": [
-    "static/css/main.1dc1492c.css",
+    "static/css/main.ef468a7f.css",
     "static/js/main.57995e97.js"
   ]
 }
